@@ -1,0 +1,100 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #b84c4c;
+}
+
+.feedback {
+  margin-top: 40px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.menu-category {
+  margin: 20px 0;
+}
+
+.category-header {
+  background-color: #b84c4c;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#drinks-list, #main-dishes-list, #snacks-list {
+  background-color: #ffe6e6;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#drinks-list li, #main-dishes-list li, #snacks-list li {
+  font-size: 20px;
+  margin: 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.highlight {
+  background-color: #f9c5c5;
+}
+
+.hidden {
+  display: none;
+}
+
+
+textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 16px;
+  resize: none;
+  
+}
+
+#feedback-status {
+  color: #b84c4c;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Стиль для кнопки надіслати */
+button {
+  background-color: #b84c4c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #a73e3e;
+}

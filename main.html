@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кафе</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <h1>Кафе</h1>
+
+    <h2>Меню</h2>
+    <p id="menu-description">Тут ви знайдете найсмачніші страви!</p>
+
+    <!-- Напої -->
+    <div class="menu-category">
+        <h3 class="category-header" id="drinks-header">Напої</h3>
+        <ul id="drinks-list" class="hidden">
+            <li>Кава</li>
+            <li>Чай</li>
+            <li>Сік</li>
+        </ul>
+    </div>
+
+    <!-- Основні страви -->
+    <div class="menu-category">
+        <h3 class="category-header" id="main-dishes-header">Основні страви</h3>
+        <ul id="main-dishes-list" class="hidden">
+            <li>Піца Маргарита</li>
+            <li>Борщ український</li>
+            <li>Шашлик</li>
+        </ul>
+    </div>
+
+    <!-- Закуски -->
+    <div class="menu-category">
+        <h3 class="category-header" id="snacks-header">Закуски</h3>
+        <ul id="snacks-list" class="hidden">
+            <li>Салат Цезар</li>
+            <li>Брускети</li>
+            <li>Картопля фрі</li>
+        </ul>
+    </div>
+
+    <h2 class="feedback">Зворотний зв'язок</h2>
+    <p>Ваші побажання:</p>
+    <textarea id="feedback" rows="4" cols="50"></textarea>
+    <p id="feedback-status"></p>
+
+    <button id="submit-button">Надіслати</button>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
